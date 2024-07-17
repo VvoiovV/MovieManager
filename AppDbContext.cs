@@ -38,7 +38,6 @@ namespace ProjektObiektowe
                 .WithMany(a => a.FilmActors)
                 .HasForeignKey(fa => fa.ActorId);
 
-            // Dodaj inne relacje i konfiguracje
         }
     }
 }

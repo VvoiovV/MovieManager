@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjektObiektowe"
         mc:Ignorable="d"
-        Title="AddFilmWindow" Height="450" Width="800">
+        Title="AddFilmWindow" Height="300" Width="400">
     <Grid>
-        
+        <Label Content="Name:"/>
+        <TextBox x:Name="NameTextBox" Margin="100,0,0,0"/>
+        <Label Content="Production Year:" Margin="0,30,0,0"/>
+        <TextBox x:Name="ProductionYearTextBox" Margin="100,30,0,0"/>
+        <Label Content="Publisher:" Margin="0,60,0,0"/>
+        <TextBox x:Name="PublisherTextBox" Margin="100,60,0,0"/>
+        <Button Content="Add Film" Click="AddFilmButton_Click" Margin="0,90,0,0"/>
     </Grid>
 </Window>
