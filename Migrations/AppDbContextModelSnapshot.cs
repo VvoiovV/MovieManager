@@ -36,7 +36,7 @@ namespace ProjektObiektowe.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Actors");
+                    b.ToTable("Actors", (string)null);
                 });
 
             modelBuilder.Entity("ProjektObiektowe.Models.Film", b =>
@@ -59,7 +59,7 @@ namespace ProjektObiektowe.Migrations
 
                     b.HasIndex("PublisherId");
 
-                    b.ToTable("Films");
+                    b.ToTable("Films", (string)null);
                 });
 
             modelBuilder.Entity("ProjektObiektowe.Models.FilmActor", b =>
@@ -74,7 +74,7 @@ namespace ProjektObiektowe.Migrations
 
                     b.HasIndex("ActorId");
 
-                    b.ToTable("FilmActors");
+                    b.ToTable("FilmActors", (string)null);
                 });
 
             modelBuilder.Entity("ProjektObiektowe.Models.Publisher", b =>
@@ -89,7 +89,7 @@ namespace ProjektObiektowe.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Publishers");
+                    b.ToTable("Publishers", (string)null);
                 });
 
             modelBuilder.Entity("ProjektObiektowe.Models.Rating", b =>
@@ -112,7 +112,7 @@ namespace ProjektObiektowe.Migrations
 
                     b.HasIndex("FilmId");
 
-                    b.ToTable("Ratings");
+                    b.ToTable("Ratings", (string)null);
                 });
 
             modelBuilder.Entity("ProjektObiektowe.Models.Film", b =>

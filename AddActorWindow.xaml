@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjektObiektowe"
         mc:Ignorable="d"
-        Title="AddActorWindow" Height="450" Width="800">
+        Title="Add Actor" Height="300" Width="400">
     <Grid>
-        
+        <StackPanel Margin="10">
+            <TextBlock Text="Name:" Margin="5"/>
+            <TextBox x:Name="NameTextBox" Margin="5"/>
+
+            <TextBlock Text="Surname:" Margin="5"/>
+            <TextBox x:Name="SurnameTextBox" Margin="5"/>
+
+            <TextBlock Text="Birth Date:" Margin="5"/>
+            <DatePicker x:Name="BirthDatePicker" Margin="5"/>
+
+            <TextBlock Text="Select Film:" Margin="5"/>
+            <ComboBox x:Name="FilmComboBox" DisplayMemberPath="Name" SelectedValuePath="Id" Margin="5"/>
+
+            <Button Content="Add Actor" Click="AddActorButton_Click" Width="100" Height="30" Margin="5"/>
+        </StackPanel>
     </Grid>
 </Window>
