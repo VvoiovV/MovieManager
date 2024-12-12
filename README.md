@@ -3,7 +3,7 @@
 ---
 
 ## Description
-ProjektObiektowe is a C# application designed for managing a database of movies, actors, and ratings. Users can add new movies, actors, and assign ratings to specific films, enabling effective cataloging and reviewing of a movie collection.
+MovieManager is a C# application designed for managing a database of movies, actors, and ratings. Users can add new movies, actors, and assign ratings to specific films, enabling effective cataloging and reviewing of a movie collection.
 
 ---
 
@@ -17,7 +17,7 @@ ProjektObiektowe is a C# application designed for managing a database of movies,
 
 ## File Structure
 ```
-ProjektObiektowe/
+MovieManager/
 ├── Migrations/
 ├── Models/
 ├── AddActorWindow.xaml
@@ -41,13 +41,13 @@ ProjektObiektowe/
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/VvoiovV/ProjektObiektowe.git
+   git clone https://github.com/VvoiovV/MovieManager.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd ProjektObiektowe
+   cd MovieManager
    ```
-3. Open the `ProjektObiektowe.sln` file in Visual Studio.
+3. Open the `MovieManager.sln` file in Visual Studio.
 4. Build the solution by selecting "Build Solution" from the "Build" menu.
 5. Run the application by selecting "Start" or pressing `F5`.
 
